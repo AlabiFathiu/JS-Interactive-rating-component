@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Overpass:wght@400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    color: #fff;
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+li{
+    list-style-type: none;
+}
+
+button {
+    
+}
+
+#container {
+    background-color: hsl(213, 19%, 18%);
+    padding: 2rem;
+    border-radius: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.star {
+    margin-bottom: 1rem;
+    background-color: hsl(216, 12%, 8%);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.feedback{
+    padding: 1rem;
+}
+
+.feedback h1 {
+    font-size: 40px;
+}
+
+.feedback p {
+    color:  hsl(217, 12%, 63%);
+}
+
+#button-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#button-list button {
+    background:   hsl(216, 12%, 8%);
+    padding: 1.5rem;
+    border: none;
+    border-radius: 100px;
+    color:  hsl(217, 12%, 63%);
+}
+
+#button-list button:hover {
+    background:  hsl(25, 97%, 53%);
+}
+
+#button-list button:focus{
+    background-color: hsl(217, 12%, 63%);
+}
+
+#submit {
+    padding: 1rem 2rem;
+    width: 100%;
+    align-self: center;
+    border-radius: 20px;
+    background-color:  hsl(25, 97%, 53%);
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+
+#submit:hover {
+    color:  hsl(25, 97%, 53%);
+    background-color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+#thank-you {
+    text-align: center;
+    padding: 1rem;
+}
+
+#thank-you img {
+    margin-bottom: 1rem;
+}
+
+.gray  {
+   margin: 0 auto;
+   background:   hsl(216, 12%, 8%);
+   width: 40%;
+   padding: 0.4rem 1rem;
+   color:  hsl(25, 97%, 53%);
+    margin-bottom:2rem ;
+}
+
+.we {
+    color:  hsl(217, 12%, 63%);
+    margin-bottom: 1rem;
+}
+
+
+#rate {
+    padding: 1rem 2rem;
+    width: 100%;
+    align-self: center;
+    border-radius: 20px;
+    background-color:  hsl(25, 97%, 53%);
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+
+#rate:hover {
+    color:  hsl(25, 97%, 53%);
+    background-color: #fff;
+}
+
+.attribution {
+    text-align: center;
+}
+
+.attribution p {
+    color:  hsl(217, 12%, 63%);
+}
+
+.attribution a {
+    color: #fff;
+}
